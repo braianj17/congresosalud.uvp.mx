@@ -1,0 +1,111 @@
+body{
+	margin-top: 40px;
+    background-image: url("../images/textura_salud-01.png");
+    background-attachment: fixed;
+    background-position: center;
+   
+
+ 
+}
+
+a{
+	color: white;
+}
+
+a:hover{
+	color: #91268f;
+}
+
+
+
+.imagen1{
+    background: url("../images/fondo3.jpg");
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+
+
+
+img{
+    margin: auto;
+}
+
+.footer{
+	background-image: url("../images/pleca_footer.png");
+	background-position:center top;
+	background-repeat: no-repeat;
+	width: 100%;
+	min-height: 300px;
+	background-size: cover;
+	color: white;
+	padding-top: 5em;
+}
+
+#superior{
+    margin-top:1rem ;
+}
+
+#logo{
+    margin-top: ;
+}
+
+
+#auditorio{
+        margin:1.5rem 0 0 .7rem ;
+    width: 75px;
+    height: 6px;
+}
+
+#fecha{
+    margin-right:-2.5rem ;
+    width: 30px;
+    height: 29px;
+}
+
+#inferior{
+    margin-top:5rem ;
+}
+
+/*---- Mediaquerie --*/
+
+@media(min-width:992px){
+    .imagen1{
+    background: url("../images/fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+    
+
+    
+    #superior{
+    margin-top: 5rem;
+}
+
+#logo{
+    margin-top: 3.5rem;
+}
+
+
+#auditorio{
+        margin: 7rem 0 0 8.7rem;
+    width: 251px;
+    height: 23px;
+}
+
+#fecha{
+    margin-right: -5.5rem;
+    width: 123px;
+    height: 122px;
+}
+
+#inferior{
+    margin-top: 27rem;
+}
+}
+
+
+
